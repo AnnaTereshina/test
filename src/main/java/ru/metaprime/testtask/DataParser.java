@@ -29,7 +29,7 @@ public class DataParser {
 			Node nameNode = elem.getElementsByTagName("name").item(0);
 			String name = nameNode.getTextContent();
 
-			if (!chekDouble(namesOrganizations, name)) {
+			if (!checkDouble(namesOrganizations, name)) {
 				Node areaNode = elem.getElementsByTagName("area").item(0);
 				String area = areaNode.getTextContent();
 
@@ -69,7 +69,7 @@ public class DataParser {
 		return organizationElements;
 	}
 
-	private boolean chekDouble(ArrayList<String> namesOrganizations, String name) {
+	private boolean checkDouble(ArrayList<String> namesOrganizations, String name) {
 		for (String nameOrganization : namesOrganizations) {
 			if (nameOrganization.equals(name)) {
 				return true;
