@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organizations>
+	<organization>
+		<name>One222</name>
+		<area>Machine</area>
+		<address>Russia</address>
+		<phone>123456789</phone>
+	</organization>
+	<organization>
+		<name>Two5555</name>
+		<area>Shop</area>
+		<address>USA</address>
+		<phone>987654321</phone>
+	</organization>
+	<organization>
+		<name>Tree7</name>
+		<area>Cafe</area>
+		<address>England</address>
+		<phone>147258369</phone>
+	</organization>
+</organizations>
